@@ -1,0 +1,162 @@
+SKYBOX
+resources/space2.jpg
+10 10 
+||
+
+
+SURFACES
+#Near
+parallelogram
+ -14  0  32
+  28  0  0
+ 0   -20  -16
+
+ 0 0
+ 0 1
+ 1 1
+ 1 0
+ 
+# Triangle in between
+triangle
+-14   0  32
+ 0  -20 -16
+-16   0  -16
+ 
+ 0 0
+ 0 1
+ 1 1
+
+
+# Left 
+parallelogram
+-14  -20  16
+  0    0   -32
+  -16  20    0
+
+0 0
+ 0 1
+ 1 1
+ 1 0
+
+
+# Triangle in between
+triangle
+-14   0  -32
+-16   0  16
+ 0  -20 16
+
+ 0 0
+ 0 1
+ 1 1
+
+ 
+ # Far
+parallelogram
+ 14   0  -32
+ -28   0  0
+ 0   -20  16
+
+0 0
+ 0 1
+ 1 1
+ 1 0
+
+
+# Triangle in between
+triangle
+14   0 -32
+ 0  -20 16
+16   0  16
+
+ 0 0
+ 0 1
+ 1 1
+
+# Right
+parallelogram
+14  -20  -16
+ 0    0   32
+16  20    0
+
+0 0
+ 0 1
+ 1 1
+ 1 0
+
+
+# Triangle in between
+triangle
+14   0  32
+16   0  -16
+ 0  -20 -16
+ 
+ 0 0
+ 0 1
+ 1 1
+ 
+# Bottom: Near
+parallelogram
+-14  -20  16
+28   0     0
+0   0    -8
+
+ 0 0
+ 0 1
+ .28 1
+ .28 0
+
+
+parallelogram
+14  -20  -16
+-28   0   0
+0   0    8
+
+ 0 0
+ 0 1
+ .28 1
+ .28 0
+
+
+parallelogram
+-14  -20  8
+6   0    0
+0  0    -16
+
+
+0 0
+ 0  .28
+1 .28 
+1 0
+
+parallelogram
+14  -20  -8
+-6   0    0
+0  0    16
+
+ 0 0
+ 0 .28
+ 1 .28
+ 1 0
+
+||
+
+SPAWNPOINTS
+ -18  50  14
+  18  50  14
+  18  50  -14
+ -18  50  -14
+||
+
+POWERUPS
+fastball
+27 3 0
+
+missile
+-27 3 0
+
+fastball
+0 3 27
+
+missile
+0 3 -27
+||

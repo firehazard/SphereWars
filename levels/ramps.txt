@@ -1,0 +1,278 @@
+SKYBOX
+resources/boston1.png
+0.999 0.999
+resources/boston2r.png
+0.999 0.999
+resources/boston3.png
+0.999 0.999
+resources/boston4.png
+0.999 0.999
+resources/boston5.png
+0.999 0.999
+resources/boston6.png
+0.999 0.999
+||
+
+SURFACES
+#LEFT
+#BASE
+parallelogram
+-100 0  120
+ 80  0  0
+ 0   0  -60
+ 0 0
+ 0 4
+ 3 4
+ 3 0
+
+#up ramp 
+parallelogram
+-100  0  60
+ 80  0  0
+ 0   20  -20
+ 0 0
+ 0 4
+ 1 4 
+ 1 0
+
+ #top ramp
+ parallelogram
+-100  20  40
+ 80  0  0
+ 0   0  -10
+ 0 0
+ 0 4
+ .5 4 
+ .5 0
+
+ #down ramp
+ parallelogram
+-100  20  30
+ 80  0  0
+ 0 -20  -20
+ 0 0
+ 0 4
+ 1 4 
+ 1 0
+ 
+ #middle floor
+ parallelogram
+-100  0  10
+ 80  0  0
+ 0 0  -20
+ 0 0
+ 0 4
+ 1 4 
+ 1 0
+
+#up ramp 
+parallelogram
+-100  0  -10
+ 80  0  0
+ 0   20  -20
+ 0 0
+ 0 4
+ 1 4 
+ 1 0
+
+#top ramp
+ parallelogram
+-100  20  -30
+ 80  0  0
+ 0   0  -10
+ 0 0
+ 0 4
+.5 4 
+.5 0
+
+#down ramp
+ parallelogram
+-100  20  -40
+ 80  0  0
+ 0 -20  -20
+ 0 0
+ 0 4
+ 1 4 
+ 1 0
+
+#farbase
+parallelogram
+-100 0  -60
+ 80  0  0
+ 0   0  -60
+ 0 0
+ 0 4
+ 3 4
+ 3 0
+
+#RIGHT
+#BASE
+parallelogram
+20 0  120
+ 80  0  0
+ 0   0  -60
+ 0 0
+ 0 4
+ 3 4
+ 3 0
+
+#up ramp 
+parallelogram
+20  0  60
+ 80  0  0
+ 0   20  -20
+ 0 0
+ 0 4
+ 1 4 
+ 1 0
+
+ #top ramp
+ parallelogram
+20  20  40
+ 80  0  0
+ 0   0  -10
+ 0 0
+ 0 4
+ .5 4 
+ .5 0
+
+#top ramp BETWEEN
+ parallelogram
+-20  20  40
+ 40  0  0
+ 0   0  -10
+ 0 0
+ 0 4
+.5 4 
+.5 0
+
+#down ramp
+ parallelogram
+20  20  30
+ 80  0  0
+ 0 -20  -20
+ 0 0
+ 0 4
+ 1 4 
+ 1 0
+ 
+ #middle floor
+ parallelogram
+20  0  10
+ 80  0  0
+ 0 0  -20
+ 0 0
+ 0 4
+ 1 4 
+ 1 0
+
+#up ramp 
+parallelogram
+20  0  -10
+ 80  0  0
+ 0   20  -20
+ 0 0
+ 0 4
+ 1 4 
+ 1 0
+
+#top ramp
+ parallelogram
+20  20  -30
+ 80  0  0
+ 0   0  -10
+ 0 0
+ 0 4
+.5 4 
+.5 0
+
+#top ramp BETWEEN
+ parallelogram
+-20  20  -30
+ 40  0  0
+ 0   0  -10
+ 0 0
+ 0 4
+.5 4 
+.5 0
+
+#down ramp
+ parallelogram
+20  20  -40
+ 80  0  0
+ 0 -20  -20
+ 0 0
+ 0 4
+ 1 4 
+ 1 0
+
+#farbase
+parallelogram
+20 0  -60
+ 80  0  0
+ 0   0  -60
+ 0 0
+ 0 4
+ 3 4
+ 3 0
+
+#middle bridge
+parallelogram
+-20 0  5
+ 40  0  0
+ 0   0  -10
+ 0 0
+ 0 2
+ .5 2
+ .5 0
+
+
+||
+
+SPAWNPOINTS
+ -60  50  60
+  60  50  60
+ -60  50  -60
+  60  50  -60
+||
+
+POWERUPS
+missile
+0  3  0
+
+missile
+-30  35  0
+
+missile
+-50  35  0
+
+missile
+-70  35  0
+
+missile
+30  35  0
+
+missile
+50  35  0
+
+missile
+70  35  0
+
+fastball
+-60 3 80
+
+fastball
+60 3 80
+
+fastball
+-60 3 -80
+
+fastball
+60 3 -80
+
+bigball
+0  23 -35
+
+bigball
+0  23 35
+||

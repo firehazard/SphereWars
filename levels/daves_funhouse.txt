@@ -1,0 +1,178 @@
+SKYBOX
+resources/space2.jpg
+10 10
+||
+
+
+SURFACES
+## PYRAMID
+## -------
+# Top
+parallelogram
+-4  5  4
+ 8  0  0
+ 0   0  -8
+ 
+#
+ 0 0
+ 0 1
+ 1 1 
+ 1 0
+ 
+# Sides
+parallelogram
+-4  0  8
+ 8  0  0
+ 0  5 -4
+ 0 0
+ 0 2
+ 1 2 
+ 1 0
+ 
+ 
+ 
+parallelogram
+ 4  0  -8
+-8  0    0
+  0  5   4
+ 0 0
+ 0 2
+ 1 2 
+ 1 0
+ 
+ 
+
+parallelogram
+-8   0  4
+ 4  5  0
+ 0   0 -8
+ 0 0
+ 0 2
+ 1 2 
+ 1 0
+ 
+ 
+
+parallelogram
+ 8   0  -4
+ -4  5   0
+  0   0  8
+ 0 0
+ 0 2
+ 1 2 
+ 1 0
+ 
+ 
+
+# Triangle corners
+triangle
+-8  0  4
+ 4  0  4
+  4 5  0
+ 0 0
+ 0 1.4
+ 1.4 1.4
+ 
+ 
+triangle
+ 4  0  8
+ 4  0 -4
+ 0 5  -4
+ 0 0
+ 0 1.4
+ 1.4 1.4
+ 
+
+triangle
+8  0  -4
+-4  0  -4
+-4 5   0
+  0 0
+ 0 1.4
+ 1.4 1.4
+  
+
+triangle
+-4  0 -8
+-4  0   4
+ 0  5   4
+  0 0
+ 0 1.4
+ 1.4 1.4
+ 
+## END PYRAMID 
+
+## Pyramid base
+parallelogram
+-14  0  32
+ 28   0  0
+ 0   0  -64
+ 0   0
+ 0   3.5
+ 3.5 8
+ 3.5 0
+ 
+
+## Front and back of base area
+parallelogram
+-35  0  32
+  0  0   20
+ 70  0   0
+ 0 0
+ 0 2.5
+ 8.75 2.5 
+ 8.75 0
+
+
+ 
+
+parallelogram
+ 35  0 -32
+  0  0 -20
+-70  0   0
+ 
+ 0 0
+ 0 2.5
+ 8.75 2.5 
+ 8.75 0
+ 
+
+## Sides of base area
+parallelogram
+-55  0  52
+ 20  0   0
+  0  0  -104
+ 0 0
+ 0 2.5
+ 8.75 2.5 
+ 8.75 0
+ 
+
+parallelogram
+ 55  0  -52
+-20  0   0
+  0  0   104
+ 0 0
+ 0 2.5
+ 8.75 2.5 
+ 8.75 0 
+
+||
+
+SPAWNPOINTS
+  40  50  42
+ -40  50  42
+ -40  50 -42
+  40  50 -42
+||
+
+POWERUPS
+missile
+0 8 0
+
+fastball
+40 3 0
+
+bigball
+-40 3 0
+||

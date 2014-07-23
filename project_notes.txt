@@ -1,0 +1,40 @@
+American Gladiator-style Game
+
+ Different Characters:
+   - Sphere
+   - Cube
+   - Little guy?
+   - Other 3D Polygons
+   - Others?
+   - 
+
+  Powerups:
+   - Chain with a stake
+   - Missiles
+   - Sticky Pad
+   - super jump?
+
+
+  Stage features:
+   - Breaking in half
+   - Tilting
+   - Ramps?
+   - Huge stage, filled with ramps (maybe hole in the middle?)
+   - sand trap / ooze
+   - oil slick
+   
+ "Additional Techniques"
+   - Control panel (score, lives, power-up, speed?)
+   - Simulated Dynamics
+   - Collision Detection
+   - AI?
+   - Procedurally Generated stuff (generating stage / trees / smoke / etc on
+     the fly)
+   - Level of Detail Control
+   - Advanced Rendering Effects?
+
+
+First pass:
+ - Simple stage (flat)
+ - Only one character (sphere?)
+ - Minimal powerups

@@ -1,0 +1,32 @@
+SKYBOX
+resources/space2.jpg
+10 10
+||
+
+SURFACES
+parallelogram
+-40  0  40
+ 80  0  0
+ 0   0  -80
+ 
+ 0 0
+ 0 4
+ 4 4
+ 4 0
+||
+
+SPAWNPOINTS
+-20  50  20
+ 20  50  20
+ 20  50 -20
+-20  50 -20
+||
+
+POWERUPS
+missile
+0 5 15
+bigball
+15 5 0
+fastball
+15 5 15
+||

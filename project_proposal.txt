@@ -1,0 +1,65 @@
+CS248 Video Game Project Proposal
+
+
+Team Members:  Tom Deane      (tdeane@stanford.edu)
+               David Erickson (derickso@stanford.edu)
+               Daniel Holbert (dholbert@stanford.edu)
+
+Game Name:  SphereWars 
+(this is a codename, we'll come up with something better)
+
+
+Main Idea:
+----------
+  SphereWars is a multiplayer arcade game in which the goal is to knock every other player
+  off the stage.  Every player rolls around inside of a shape (Cube, Sphere, other Polyhedrons) and there
+  are advantages and disadvantages for each of these shapes. A sphere will roll much faster than a cube
+  giving you the chance to knock someone off the stage more easily by collision.  A cube has the advantage
+  of providing greater friction with the ground (and thus greater control) whenever a high-kickback power-up
+  (such as a missile) is used against the enemy.  Similarly, a sphere colliding with a cube will result in much
+  greater displacement of the sphere.
+		
+  The 3D world will consist of a stage which can assume various shapes and forms.  We plan to have all sorts
+  of features available in the stage:  slopes, random obstacles, powerups, holes.  In addition, different
+  frictional surfaces (ice, oil, etc) will make the game more exciting.
+
+
+2*N (6) Advanced Features:
+--------------------------
+ - On-Screen Control Panel: This will display the score, lives, and
+    the currently activated power-ups for each player
+
+ - Simulated Dynamics: We'll be simulating the physical forces of
+    gravity and friction.  A player's shape (sphere, cube, etc.) as 
+    well as the terrain type (cement, ice) will affect motion.
+
+ - Collision Detection: This will be crucial for letting players bump
+   into each other.
+
+ - Procedurally Generated Terrain: Our game will feature
+    automatically-generated maps.
+
+ - Level of Detail Control: The user will be able to customize the
+   level of detail, to accomidate a wider spectrum of gaming hardware.
+
+ - Advanced Rendering Effects: Our game will feature effects like bump
+   mapping and reflections.
+
+
+Other cool game features:
+-------------------------
+ - Networking: We plan on making this game multiplayer over a network,
+    with support for many players and possibly for team games.
+
+ - Powerups: Players will be able to get powerups that affect their
+   speed, change their shape, and give them weapons.
+ 
+
+Technical Challenges:
+---------------------
+  There is a great deal of complex physics involved in a game like this one.  Learning of all these concepts and 
+  applying them efficiently and correctly will be a great challenge.
+
+  We also plan on making this game platform-independent, which presents restrictions and challeneges.
+
+  Maintaining a consistent "World" state across all the players in a  network game will be a great challenge.
